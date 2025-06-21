@@ -7,4 +7,4 @@ for i in range(1, n + 1):
     else:
         print('\033[31m', end=' ')
     print('{}'.format(i), end=' ')
-print('\nO número {} fi divisível {} vezes'.format(n, cont))
+print('\nO número {} foi divisível {} vezes'.format(n, cont))
