@@ -1,0 +1,15 @@
+def Título(t1, t2, t3):
+    print('-' * 30)
+    print(f'{t1:^30}')
+    print('-' * 30)
+    print('#' * 30)
+    print(f'{t2:^30}')
+    print('#' * 30)
+    print('=' * 30)
+    print(f'{t3:^30}')
+    print('=' * 30)
+
+t1 = str(input('Digite o 1º título: '))
+t2 = str(input('Digite o 2º título: '))
+t3 = str(input('Digite o 3º título: '))
+Título(t1, t2, t3)
