@@ -5,8 +5,8 @@ p = valor_da_casa/(anos*12)
 
 if anos >= 50:
     print('\nAnálise do financiamento...')
-    print('✅ Empréstimo APROVADO!')
+    print('Empréstimo APROVADO!')
     print('Sua prestação foi de R${:.2f} por mês'.format(prestacao))
 elif anos < 50 and p >= (salario*0.3):
     print('\nAnálise do financiamento...')
-    print('❌ Empréstimo NEGADO. A prestação excede 30% do salário.')
+    print('Empréstimo NEGADO. A prestação excede 30% do salário.')
